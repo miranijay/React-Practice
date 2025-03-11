@@ -63,3 +63,76 @@ h1{
     margin-top: 64px;
     text-transform: capitalize;
 }
+
+h4 {
+    text-align: center;
+    margin-top: 16px;
+    color: #617d98;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 64px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.remove-btn{
+    text-align: center;
+    display: block;
+    margin: 16px auto;
+    background-color: #617d98;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.btn{
+    text-align: center;
+    display: block;
+    margin: 16px auto;
+    padding: 16px 32px;
+    background-color: #c35600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.users {
+    max-width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem auto;
+}
+.users li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: var(--white);
+    padding: 1rem 2rem;
+    border-radius: var(--borderRadius);
+    text-align: left;
+}
+.users img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+.users h5 {
+    margin-bottom: 0;
+}
+.users a {
+    color: var(--primary-500);
+    text-transform: capitalize;
+}

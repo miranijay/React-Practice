@@ -1,8 +1,9 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
 import './index.css'
-import { books } from "./books.js";
-import Book from "./book.jsx";
+import { books } from "./data/books.js";
+import Book from "./components/book.jsx";
+import People from "./components/people.jsx";
+import FetchData from "./components/fetch.jsx";
 
 export default function BookList() {
   
@@ -16,9 +17,14 @@ export default function BookList() {
           )
         })}
       </section>
+
+      <div>
+        <People/>
+      </div>
+
+      <div>
+        <FetchData />
+      </div>
     </>
   )
 };
-
-
-// https://www.amazon.in/gp/bestsellers/books

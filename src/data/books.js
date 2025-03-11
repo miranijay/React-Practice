@@ -1,8 +1,8 @@
 // For Data
 
-import img1 from './images/book-1.jpg';
-import img2 from './images/book_2.jpg';
-import img3 from './images/book3.jpg';
+import img1 from '../images/book-1.jpg';
+import img2 from '../images/book_2.jpg';
+import img3 from '../images/book3.jpg';
 
 export const books = [
     {
