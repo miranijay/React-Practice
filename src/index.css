@@ -71,6 +71,18 @@ h4 {
     letter-spacing: 2px;
     font-size: 22px;
 }
+h2 {
+    text-align: center;
+    color: #617d98;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+p {
+    text-align: center;
+    color: #617d98;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
 
 h3 {
     text-align: center;
@@ -135,4 +147,16 @@ h3 {
 .users a {
     color: var(--primary-500);
     text-transform: capitalize;
+}
+
+.alert {
+    padding: 0.375rem 0.75rem;
+    margin: 1rem 0;
+    border-color: transparent;
+    border-radius: var(--borderRadius);
+}
+  
+.alert-danger {
+    color: var(--red-dark);
+    background: var(--red-light);
 }

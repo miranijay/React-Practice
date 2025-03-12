@@ -4,6 +4,10 @@ import { books } from "./data/books.js";
 import Book from "./components/book.jsx";
 import People from "./components/people.jsx";
 import FetchData from "./components/fetch.jsx";
+import MultipleReturnsFetchData from "./components/fetching_data.jsx";
+import ToggleComponent from "./components/toggle.jsx";
+import UserChallenge from "./components/user-challenge.jsx";
+import ConditionalRendering from "./components/conditional_Rendering.jsx";
 
 export default function BookList() {
   
@@ -24,6 +28,22 @@ export default function BookList() {
 
       <div>
         <FetchData />
+      </div>
+
+      <div>
+        <MultipleReturnsFetchData />
+      </div>
+
+      <div>
+        <ToggleComponent />
+      </div>
+
+      <div>
+        <UserChallenge />
+      </div>
+
+      <div>
+        <ConditionalRendering />
       </div>
     </>
   )
