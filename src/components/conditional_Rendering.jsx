@@ -20,11 +20,11 @@ const ConditionalRendering = () => {
 }
 
 const RandomComponent = () => {
-    
+
     return (
         <>
             <div>
-                <h1>Hello there</h1>
+                <h2>Hello there</h2>
             </div>
         </>
     )
