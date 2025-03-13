@@ -8,6 +8,8 @@ import MultipleReturnsFetchData from "./components/fetching_data.jsx";
 import ToggleComponent from "./components/toggle.jsx";
 import UserChallenge from "./components/user-challenge.jsx";
 import ConditionalRendering from "./components/conditional_Rendering.jsx";
+import { people } from "./data/data.js";
+import Person from "./components/leverage_js.jsx";
 
 export default function BookList() {
   
@@ -44,6 +46,13 @@ export default function BookList() {
 
       <div>
         <ConditionalRendering />
+      </div>
+
+      <div>
+        <h1>Leverage JavaScript</h1>
+        {people.map((person) => {
+          return <Person key={person.name} {...person} />
+        })}
       </div>
     </>
   )
