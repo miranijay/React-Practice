@@ -9,12 +9,12 @@ export default function Forms() {
             {/* <div>
                 <ControlledInputs />
             </div> */}
-            {/* <div>
-                <MultipleInputs />
-            </div> */}
             <div>
-                <UncontrolledInputs />
+                <MultipleInputs />
             </div>
+{/*             <div>
+                <UncontrolledInputs />
+            </div> */}
         </>
     )
 }
