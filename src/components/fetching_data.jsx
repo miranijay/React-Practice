@@ -43,7 +43,7 @@ const MultipleReturnsFetchData = () => {
             <img 
                 src={avatar_url} 
                 alt={name} 
-                style={{ width: '15opx', borderRadius:'18px', display:'block', margin:'auto'}} 
+                style={{ width: '150px', borderRadius:'18px', display:'block', margin:'auto'}} 
             />
             <h2>{name}</h2>
             <h4>Works at {company}</h4>
